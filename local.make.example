@@ -1,0 +1,24 @@
+; solikon2015 make file for local development
+core = "7.x"
+api = "2"
+
+projects[drupal][version] = "7.x"
+; include the d.o. profile base
+includes[] = "drupal-org.make"
+
+; +++++ Libraries +++++
+
+; tcpdf
+libraries[tcpdf][directory_name] = "tcpdf"
+libraries[tcpdf][type] = "library"
+libraries[tcpdf][destination] = "libraries"
+libraries[tcpdf][download][type] = "get"
+libraries[tcpdf][download][url] = "" ; TODO add download URI
+
+; Profiler
+libraries[profiler][directory_name] = "profiler"
+libraries[profiler][type] = "library"
+libraries[profiler][destination] = "../../profiles/solikon2015/libraries"
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz"
+
