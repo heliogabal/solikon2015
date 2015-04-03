@@ -13,11 +13,25 @@ includes[] = "drupal-org.make"
 ; +++++ Libraries +++++
 
 ; tcpdf
+libraries[tcpdf][type] = "libraries"
+libraries[tcpdf][download][type] = "file"
+libraries[tcpdf][download][url] = "http://tinyurl.com/tcpdf-6-2-6-zip"
 libraries[tcpdf][directory_name] = "tcpdf"
-libraries[tcpdf][type] = "library"
 libraries[tcpdf][destination] = "libraries"
-libraries[tcpdf][download][type] = "get"
-libraries[tcpdf][download][url] = "" ; TODO add download URI
+
+libraries[fpdi][type] = "libraries"
+libraries[fpdi][download][type] = "file"
+libraries[fpdi][download][url] = "http://www.setasign.com/supra/kon2_dl/80506/FPDI-1.5.2.zip"
+libraries[fpdi][directory_name] = "fpdi"
+libraries[fpdi][destination] = "libraries"
+
+; dompdf
+;libraries[dompdf][directory_name] = "dompdf"
+;libraries[dompdf][type] = "library"
+;libraries[dompdf][destination] = "libraries"
+;libraries[dompdf][download][type] = "get"
+;libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf/releases/download/v0.6.1/dompdf-0.6.1.zip" ;
+
 
 ; Profiler
 libraries[profiler][directory_name] = "profiler"
