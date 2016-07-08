@@ -13,7 +13,7 @@ projects[fpa][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.9"
 projects[ctools][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.2"
@@ -43,7 +43,7 @@ projects[imce_wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 
-projects[views][version] = "3.10"
+projects[views][version] = "3.14"
 projects[views][subdir] = "contrib"
 
 projects[views_slideshow][version] = "3.1"
