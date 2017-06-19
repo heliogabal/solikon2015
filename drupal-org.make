@@ -7,8 +7,8 @@ api = "2"
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
-projects[entity_registration][version] = "1.6"
-projects[entity_registration][subdir] = "contrib"
+projects[registration][version] = "1.6"
+projects[registration][subdir] = "contrib"
 
 projects[jquery_update][version] = "2.7"
 projects[jquery_update][subdir] = "contrib"
