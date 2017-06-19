@@ -7,6 +7,12 @@ api = "2"
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
+projects[entity_registration][version] = "1.6"
+projects[entity_registration][subdir] = "contrib"
+
+projects[jquery_update][version] = "2.7"
+projects[jquery_update][subdir] = "contrib"
+
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
@@ -19,7 +25,7 @@ projects[ctools][subdir] = "contrib"
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.7"
+projects[ds][version] = "2.14"
 projects[ds][subdir] = "contrib"
 
 projects[imce][version] = "1.9"
@@ -28,7 +34,7 @@ projects[imce][subdir] = "contrib"
 projects[backup_migrate][version] = "3.0"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[libraries][version] = "2.2"
+projects[libraries][version] = "2.3"
 projects[libraries][subdir] = "contrib"
 
 projects[menu_block][version] = "2.5"
